@@ -1,0 +1,66 @@
+html {
+  box-sizing: border-box;
+  font-size: 62.5%;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+body, h1, h2, h3, h4, h5, h6, p, ol, ul {
+  margin: 0;
+  padding: 0;
+  font-weight: normal;
+}
+
+body {
+  font-family: Helvetica Neue, sans;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+.content {
+  max-width: 100%;
+  margin: auto;
+  position: relative;
+}
+
+
+table{
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 1.5rem;
+}
+
+.persons-table td,  .persons-table th{
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+.persons-table tr td:first-child{
+  padding-left: 3rem;
+}
+
+.persons-table tr {
+  position: relative;
+}
+
+.persons-table .button-delete {
+  position: absolute;
+  left: 2rem;
+}
+
+.persons-table--nested {
+  margin: auto;
+}
+
+.top-cell {
+  background: lightgrey;
+}
